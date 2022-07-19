@@ -6,11 +6,13 @@ const GlobalStyle = createGlobalStyle`
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    --ff-inter: 'Inter', sans-serif;
+    --ff-lobster: 'Lobster', cursive;
 }
 
 body{
     background: #1b1b1b;
-
+    font-family: var(--ff-inter);
 }
 
 button{
@@ -22,6 +24,7 @@ button{
     background: transparent;
     color: white;
     transition: all 0.5s ease;
+    font-family: var(--ff-inter);
     &:hover{
         background-color: #23d997;
         color: white;
