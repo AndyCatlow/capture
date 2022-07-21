@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { About, Image } from "../styles";
+import { About } from "../styles";
 
 function FaqSection() {
   return (
